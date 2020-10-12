@@ -1278,7 +1278,8 @@
         },
         "name": {
           "type": "string",
-          "description": "Name property with a very long description that does not fit on a single line and a line break."
+          "description": "Name property with a very long description that does not fit on a single line and a line break.",
+          "x-nullable": true
         },
         "color": {
           "type": "string",
@@ -1609,7 +1610,8 @@
           "type": "string"
         },
         "null": {
-          "type": "string"
+          "type": "string",
+          "x-nullable": true
         }
       }
     },
